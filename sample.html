@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Login {
+            background-color: rgb(16, 16, 95);
+            color: rgb(255, 123, 0);
+            margin-top: 10%;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: 10%;
+            box-shadow: 0PX 0PX 8PX 2px rgb(255, 123, 0);
+            padding: 10PX;
+            font-family: cosmic, sans-serif;
+            font-size: medium;
+        }
+
+        .Login form {
+            padding: 10px;
+        }
+
+        .Login label {
+            margin-bottom: 25px;
+        }
+
+        .Login input {
+            margin-bottom: 20px;
+            width: 60%;
+            height: 10%;
+        }
+        .Login button {
+            margin-bottom: 20px;
+            background-color: rgb(9, 140, 216);
+            color: white;
+            font-family: cosmic, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 5px;
+        } 
+        .Login button:hover {
+            margin-bottom: 20px;
+            background-color: rgb(255, 123, 0);
+            color: white;
+            font-family: cosmic, sans-serif;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 5px;
+        }        
+    </style>
+</head>
+
+<body>
+    <div class="Login">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label><br>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"><br>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label><br>
+                <input type="password" class="form-control" id="exampleInputPassword1"><br>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+            <br>
+            Not yet registerd? <a href="SignUp.html"> Register</a>
+        </form>
+    </div>
+</body>
+
+</html>
